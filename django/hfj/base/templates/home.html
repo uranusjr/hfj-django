@@ -1,0 +1,59 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Head First JavaScript</title>
+  <style type="text/css">
+  body {
+    max-width: 640px;
+    margin: auto;
+  }
+  body > *:first-child {
+    margin-top: 0.5em;
+  }
+  </style>
+</head>
+<body>
+
+<h1>Head First JavaScript</h1>
+
+<h2>Bannerocity</h2>
+<ul>
+  <li><a href="{% url 'bannerocity' 1 %}">1</a></li>
+  <li><a href="{% url 'bannerocity' 2 %}">2</a></li>
+  <li><a href="{% url 'bannerocity' 3 %}">3</a></li>
+  <li><a href="{% url 'bannerocity' 4 %}">4</a></li>
+  <li><a href="{% url 'bannerocity' 5 %}">5</a></li>
+  <li><a href="{% url 'bannerocity' 6 %}">6</a></li>
+  <li><a href="{% url 'bannerocity' 7 %}">7</a></li>
+</ul>
+
+<h2>BSI</h2>
+<ul>
+  <li><a href="{% url 'bsi' 1 %}">Case 2 - 1</a></li>
+  <li><a href="{% url 'bsi' 2 %}">Case 2 - 2</a></li>
+  <li><a href="{% url 'bsi' 3 %}">Case 2 - 3</a></li>
+  <li><a href="{% url 'bsi' 4 %}">Case 2 - 4</a></li>
+  <li><a href="{% url 'bsi' 5 %}">Case 2 - 5</a></li>
+  <li><a href="{% url 'bsi' 6 %}">Case 2 - 6</a></li>
+  <li><a href="{% url 'bsi' 7 %}">Case 2 - 7</a></li>
+  <li><a href="{% url 'bsi' 8 %}">Case 2 - 8</a></li>
+  <li><a href="{% url 'bsi' 9 %}">Case 2 - 9</a></li>
+</ul>
+
+<h2>Donuts</h2>
+<ul>
+  <li><a href="{% url 'donuts' 1 %}">1</a></li>
+  <li><a href="{% url 'donuts' 2 %}">2</a></li>
+  <li><a href="{% url 'donuts' 3 %}">3</a></li>
+  <li><a href="{% url 'donuts' 4 %}">4</a></li>
+  <li><a href="{% url 'donuts' 5 %}">5</a></li>
+</ul>
+
+<h2>YouCube</h2>
+<ul>
+  <li><a href="{% url 'youcube' %}">Posts</a></li>
+  <li><a href="{% url 'youcube_add' %}">Add</a></li>
+</ul>
+
+</body>
+</html>
